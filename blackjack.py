@@ -280,30 +280,6 @@ def blackjack():
                             sleep(0.5)
                             budget -= 150
 
-                        elif question_sklep == 'W kubku lean':
-                            pygame.mixer.init()
-                            pygame.mixer.music.stop()
-                            pygame.mixer.music.load('E:\\VSC\\learning pliki\\w kubku lean.mp3')
-                            pygame.mixer.music.set_volume(0.25)
-                            pygame.mixer.music.play(loops=1)
-                            budget -= 400
-
-                        elif question_sklep == 'Odpalamy gryla':
-                            pygame.mixer.init()
-                            pygame.mixer.music.stop()
-                            pygame.mixer.music.load('E:\\VSC\\learning pliki\\odpalamy_gryla.mp3')
-                            pygame.mixer.music.set_volume(0.25)
-                            pygame.mixer.music.play(loops=1)
-                            budget -= 1000
-
-                        elif question_sklep == 'Mam penisa w mojej dupie':
-                            pygame.mixer.init()
-                            pygame.mixer.music.stop()
-                            pygame.mixer.music.load('E:\\VSC\\learning pliki\\mpwmd.mp3')
-                            pygame.mixer.music.set_volume(0.25)
-                            pygame.mixer.music.play(loops=1)
-                            budget -= 1500
-
                     elif budget == sklep_z_itemami.get(question_sklep):
                         print('Jak to kupisz skończysz grę!')
                         pass
