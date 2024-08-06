@@ -2,7 +2,6 @@ from random import choice
 from time import sleep
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
-import pygame
 
 
 karty = {'K':10,
@@ -30,10 +29,7 @@ krupier = []
 budget = 100
 
 sklep_z_itemami = {'Pozdrowienia':50,
-                    'Roast':150,
-                    'W kubku lean':400,
-                    'Odpalamy gryla':1000,
-                    'Mam penisa w mojej dupie':1500}
+                    'Roast':150}
 
 itemy_do_kupienia = list(zip(sklep_z_itemami.keys(),sklep_z_itemami.values()))
 
